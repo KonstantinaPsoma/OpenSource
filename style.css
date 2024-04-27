@@ -1,0 +1,54 @@
+
+#about {
+    color: rgb(3, 155, 31);
+    font-size: 20px;
+}
+
+.pages{
+    color: crimson;
+    font-size: 20px;
+}
+
+.text div{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+ul > li{
+    border-bottom: 2px solid rgb(32, 12, 12);
+    border-top: 2px solid rgb(32, 12, 12);
+    border-left: 2px solid rgb(32, 12, 12);
+    border-right: 2px solid rgb(32, 12, 12);
+}
+
+h2 {
+    color: rgb(140, 1, 131);
+    background-color: bisque;
+}
+
+img:active{
+    box-shadow: 5px 5px 10px #c95db7;
+}
+
+
+h3:hover{
+    color: brown;
+}
+
+h3 + p{
+    font-size: 15px;
+    border-style: dotted;
+    font-style: italic;
+}
+
+h2~p {
+    margin-inline: 50px;
+    font-style: oblique;
+}
+
+#foot {
+    border-top: 3px;
+    border-bottom: 3px;
+    border-style: dashed;
+    font-size: 20px;
+}
